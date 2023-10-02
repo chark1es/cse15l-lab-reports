@@ -1,5 +1,5 @@
 
-# Lab Report
+# Lab 1 Report - Charles Nguyen
 We learned a few commands with using the terminal, such as `cd`, `ls`, and `cat`.
 
 Here are a few examples as to using these three commands:
