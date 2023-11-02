@@ -60,30 +60,32 @@ class StringServer {
 ![](screenshots/lab2/adding_hello.png)
 
 -   The method in my code was called "handleRequest"
--   The argument is a URL. We get the path of the url "/add-message" and parse the queries associated with the url "s=Hello". We then take the substring of everything after the equal sign and then add it to the ArrayList.
+-   The argument is a URL. We get the path of the url "/add-message" and parse the queries associated with the url "s=Hello". We then take the substring of everything after the equal sign and then add it to the ArrayList `messages`.
 -   In regards to redirecting the user and running the function, no values would change. However, if we're talking about the variables in the backend of the server, then the Arraylist in the server would change as it is used to store the strings.
+-   The `combinedMessages` variable also changed as it loops through the updated `messages` Arraylist and displays the entire list on the homepage.
 
 #### Adding the question "How are you"
 
 ![](screenshots/lab2/adding_how_are_you.png)
 
 -   The method in my code was called "handleRequest"
--   The argument is a URL. We get the path of the url "/add-message" and parse the queries associated with the url "s=How are you". We then take the substring of everything after the equal sign and then add it to the ArrayList.
+-   The argument is a URL. We get the path of the url "/add-message" and parse the queries associated with the url "s=How are you". We then take the substring of everything after the equal sign and then add it to the ArrayList `messages`.
 -   In regards to redirecting the user and running the function, no values would change. However, if we're talking about the variables in the backend of the server, then the Arraylist in the server would change as it is used to store the strings.
+-   The `combinedMessages` variable also changed as it loops through the updated `messages` Arraylist and displays the entire list on the homepage.
 
 ## Part 2
 
 ### Screenshots:
 
-> Note: The private key and the public key are in the same directory
+> Note: The private key and the public key are in the same directory when on my local machine
 
 #### Private Key
 
-![](screenshots/lab2/ls.png)
+![](screenshots/lab2/ssh_private.png)
 
 #### Public Key
 
-![](screenshots/lab2/ls.png)
+![](screenshots/lab2/ssh_public.png)
 
 #### Logging in without password
 
@@ -91,4 +93,4 @@ class StringServer {
 
 ## Part 3
 
-Something that I learned from lab in Week 2/3 that I have not learned before was storing public / private keys to allow you to login without a password.
+Something that I learned from lab in Week 2/3 that I have not learned before ssh keys. I didn't know previously that you can have a key on a private server and a public key on the local machine in order to make you login without a password. I also learned how to generate the public and private keys and how to remotely transfer those keys using the terminal.
