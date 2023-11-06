@@ -1,4 +1,4 @@
-# Lab 2 Report - Charles Nguyen
+# Lab Report 2 - Charles Nguyen
 
 ## Part 1
 
