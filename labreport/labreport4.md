@@ -129,3 +129,16 @@ remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
 fatal: Authentication failed for 'https://github.com/chark1es/lab7.git/'
 ```
+
+#### Commands:
+
+I used `git add ListExamples.java` since that is the file I changed. I did `git commit` to commit the file. I did the following steps:
+
+```
+<shift> <r>
+<fixing code>
+<:wq>
+```
+
+I than ran the command
+`git push`. I had to authenicate my credentials for it to be able to push.
